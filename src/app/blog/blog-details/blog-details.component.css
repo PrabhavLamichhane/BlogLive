@@ -1,0 +1,25 @@
+.content {
+    width: 50%;
+    min-height: 100vh;
+}
+
+.heading {
+    text-align: center;
+    font-size: 2.2em;
+    font-weight: 500;
+    padding: 30px;
+}
+
+.tag {
+    font-size: 1.3em;
+}
+
+@media (max-width: 800px) {
+    .content {
+        width: 100%;
+        padding: 50px;
+    }
+    .heading {
+        font-size: 1.4em;
+    }
+}
